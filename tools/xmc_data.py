@@ -47,8 +47,22 @@ xmc_master_data = {
       "IDCHIP":{
          "addr":"40010004",
          "size":"4",
-         "value":"00014000",
-         "mask":"FFFFF000"
+         "value":"00014010",
+         "mask":"000FFFF0"
+      },
+      "FLSIZE":{
+         "addr":"40000404",
+         "size": "4",
+         "bitposition_MSB":"17",
+         "bitposition_LSB":"12"
+      }
+   },
+   "XMC1404-0200":{
+      "IDCHIP":{
+         "addr":"40010004",
+         "size":"4",
+         "value":"00014040",
+         "mask":"000FFFF0"
       },
       "FLSIZE":{
          "addr":"40000404",
