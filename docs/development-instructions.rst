@@ -20,6 +20,7 @@ Environment Setup
    * Install `Arduino IDE (2.0 or higher) <https://docs.arduino.cc/software/ide-v2/tutorials/getting-started/ide-v2-downloading-and-installing/>`_ 
    * Or Install `Arduino CLI (1.0.0 or higher) <https://arduino.github.io/arduino-cli/latest/installation/>`_
    * Python
+   * Follow the :doc:`installation-instructions`
 
 #. Create a ``<SKETCHBOOK>/hardware/arduino-git`` folder. Where ``<SKETCHBOOK>`` is the location of your Arduino sketchbook. The ``<SKETCHBOOK>`` default is OS-dependent:
    
@@ -113,7 +114,7 @@ If you are developing a new built-in library, please refer to ``libraries\CAN\Ma
 Automated Build Checks
 ^^^^^^^^^^^^^^^^^^^^^^^^
 Currently a GitHub Action workflow is used for automatic compilation checking.
-Workflows are defined `here <https://github.com/Infineon/XMC-for-Arduino/blob/master/.github/workflows/compile-platform-examples.yml>`_.
+Workflows are defined `here <https://github.com/Infineon/XMC-for-Arduino/blob/master/.github/workflows/compile-examples.yml>`_.
 
 Validation Test
 ^^^^^^^^^^^^^^^^
